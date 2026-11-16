@@ -22,7 +22,7 @@
       <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="곽효석">
     </td>
     <td>
-      <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="김기민">
+      <img src="https://github.com/kloverokkoli.png" width="100px" alt="김기민">
     </td>
     <td>
       <img src="https://github.com/gihoon1237.png" width="100px" alt="최기훈">
