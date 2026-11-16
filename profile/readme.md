@@ -1,4 +1,4 @@
-<p align="center">
+<img width="970" height="742" alt="image" src="https://github.com/user-attachments/assets/92fd37d8-1f7d-4baf-9bc0-97b39f67a8f3" /><img width="970" height="742" alt="image" src="https://github.com/user-attachments/assets/97802bd2-be27-4eef-9573-45583e332a34" /><p align="center">
   <img
     src="./assets/title.svg"
     width="820"
@@ -19,7 +19,7 @@
 
   <tr align="center">
     <td>
-      <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="곽효석">
+      <img src="https://github.com/KwakHS8.png" width="100px" alt="곽효석">
     </td>
     <td>
       <img src="https://github.com/kloverokkoli.png" width="100px" alt="김기민">
@@ -43,7 +43,7 @@
 
   <tr align="center">
     <td>
-      <a>곽효석</a>
+      <a target="_blank" href="https://github.com/KwakHS8">곽효석</a>
     </td>
     <td>
       <a target="_blank" href="https://github.com/kloverokkoli">김기민</a>
