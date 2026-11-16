@@ -46,7 +46,7 @@
       <a>곽효석</a>
     </td>
     <td>
-      <a>김기민</a>
+      <a target="_blank" href="https://github.com/kloverokkoli">김기민</a>
     </td>
     <td>
       <a target="_blank" href="https://github.com/gihoon1237">최기훈</a>
