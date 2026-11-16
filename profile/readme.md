@@ -19,49 +19,49 @@
 
   <tr align="center">
     <td>
-      <img src="https://github.com/GITHUB_ID.png" width="100px" alt="곽효석">
+      <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="곽효석">
     </td>
     <td>
-      <img src="https://github.com/ymnnnn.png" width="100px" alt="오유민">
+      <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px" alt="김기민">
+    </td>
+    <td>
+      <img src="https://github.com/gihoon1237.png" width="100px" alt="최기훈">
     </td>
     <td>
       <img src="https://github.com/do0hetfield.png" width="100px" alt="최준혁">
     </td>
     <td>
-      <img src="https://github.com/gihoon1237.png" width="100px" alt="기훈">
-    </td>
-    <td>
-      <img src="https://github.com/GITHUB_ID.png" width="100px" alt="이시형">
-    </td>
-    <td>
-      <img src="https://github.com/yeankong.png" width="100px" alt="차예은">
+      <img src="https://github.com/leesihyeong17.png" width="100px" alt="이시형">
     </td>
     <td>
       <img src="https://github.com/sangwon5579.png" width="100px" alt="조상원">
+    </td>
+    <td>
+      <img src="https://github.com/yeankong.png" width="100px" alt="차예은">
     </td>
   </tr>
 
   <tr align="center">
     <td>
-      <a target="_blank" href="https://github.com/GITHUB_ID">곽효석</a>
+      <a>곽효석</a>
     </td>
     <td>
-      <a target="_blank" href="https://github.com/ymnnnn">오유민</a>
+      <a>김기민</a>
+    </td>
+    <td>
+      <a target="_blank" href="https://github.com/gihoon1237">최기훈</a>
     </td>
     <td>
       <a target="_blank" href="https://github.com/do0hetfield">최준혁</a>
     </td>
     <td>
-      <a target="_blank" href="https://github.com/gihoon1237">기훈</a>
-    </td>
-    <td>
-      <a target="_blank" href="https://github.com/GITHUB_ID">이시형</a>
-    </td>
-    <td>
-      <a target="_blank" href="https://github.com/yeankong">차예은</a>
+      <a target="_blank" href="https://github.com/leesihyeong17">이시형</a>
     </td>
     <td>
       <a target="_blank" href="https://github.com/sangwon5579">조상원</a>
+    </td>
+    <td>
+      <a target="_blank" href="https://github.com/yeankong">차예은</a>
     </td>
   </tr>
 
