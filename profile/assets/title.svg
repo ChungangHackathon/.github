@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="멋사동네 — 기수는 다르지만, 같은 동네 사자">
+  <defs>
+    <linearGradient id="brand" gradientUnits="userSpaceOnUse" x1="60" y1="30" x2="420" y2="280">
+      <stop offset="0" stop-color="#ff6000"/>
+      <stop offset="0.45" stop-color="#ff8a3d"/>
+      <stop offset="0.7" stop-color="#4f6fa8"/>
+      <stop offset="1" stop-color="#2155a4"/>
+    </linearGradient>
+
+    <linearGradient id="glint" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="170" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="letters">
+      <text x="60" y="96" class="big">멋</text>
+      <text x="152" y="152" class="big">사</text>
+      <text x="244" y="208" class="big">동</text>
+      <text x="336" y="264" class="big">네</text>
+    </clipPath>
+  </defs>
+
+  <style>
+    .big {
+      font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+      font-size: 78px;
+      font-weight: 800;
+      letter-spacing: -2px;
+    }
+    .lead {
+      font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      fill: #64748b;
+    }
+    .sub {
+      font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #78839b;
+      letter-spacing: 3px;
+    }
+    .tag {
+      font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #4f6fa8;
+    }
+    .step { opacity: 0; animation: rise 0.7s ease-out forwards; }
+    .s1 { animation-delay: 0.05s }
+    .s2 { animation-delay: 0.20s }
+    .s3 { animation-delay: 0.35s }
+    .s4 { animation-delay: 0.50s }
+    .s5 { animation-delay: 0.80s }
+    .s6 { animation-delay: 0.95s }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(14px) }
+      to   { opacity: 1; transform: translateY(0) }
+    }
+  </style>
+
+  <g class="rail" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="2" stroke-linecap="round">
+    <path d="M60 116 H132" class="step s1"/>
+    <path d="M152 172 H224" class="step s2"/>
+    <path d="M244 228 H316" class="step s3"/>
+    <path d="M336 284 H408" class="step s4"/>
+  </g>
+
+  <g fill="url(#brand)">
+    <text x="60" y="96" class="big step s1">멋</text>
+    <text x="152" y="152" class="big step s2">사</text>
+    <text x="244" y="208" class="big step s3">동</text>
+    <text x="336" y="264" class="big step s4">네</text>
+  </g>
+
+  <g clip-path="url(#letters)">
+    <rect x="-200" y="0" width="170" height="300" fill="url(#glint)">
+      <animate attributeName="x" values="-200;900" dur="3.4s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g fill="#ff6000">
+    <path d="M470 58 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 z" opacity="0.9">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M136 46 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z" opacity="0.6">
+      <animate attributeName="opacity" values="0.1;0.85;0.1" dur="3.1s" begin="0.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M430 236 l3.5 9 9 3.5 -9 3.5 -3.5 9 -3.5 -9 -9 -3.5 9 -3.5 z" opacity="0.5" fill="#4f6fa8">
+      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.7s" begin="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g>
+    <text x="470" y="130" class="lead step s5">기수는 다르지만,</text>
+    <text x="470" y="166" class="lead step s5">같은 동네 사자</text>
+    <text x="470" y="206" class="tag step s6">활동은 끝나도, 인연은 계속되도록</text>
+    <text x="470" y="242" class="sub step s6">LIKELION CAU ALUMNI NETWORK</text>
+  </g>
+</svg>
